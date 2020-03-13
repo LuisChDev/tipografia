@@ -27,10 +27,11 @@ class Flyer extends Component {
                 <div id="white-strip">
                 </div>
                 <div id="orange-card">
-                  <p className="texto" id="orange-card-text">
+                  <span className="texto" id="orange-card-text">
                     <h2>Polo's Pub</h2><br/>
                     515 Shadowmar Drive, Metairie, Luisiana
-                  </p>
+
+                  </span>
                 </div>
               </div>
             </div>

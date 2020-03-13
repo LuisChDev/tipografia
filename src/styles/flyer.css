@@ -4,6 +4,7 @@ body {
 
 #background {
     padding: 50px;
+    position: absolute;
 }
 
 #main-card {
@@ -51,7 +52,7 @@ body {
     background-color: white;
 
     left: 70px;
-    bottom: 40px;
+    bottom: 200px;
 }
 
 #beer-price {
