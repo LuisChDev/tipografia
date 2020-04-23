@@ -78,6 +78,7 @@ class FancyForm extends React.Component {
             contrasena2: "",
             tipoId: null,
             identificacion: null,
+            email: null,
         };
         this.actualizar = this.actualizar.bind(this);
     }
@@ -93,9 +94,9 @@ class FancyForm extends React.Component {
         return (
             <div id="base" className="container">
               <div id="form-header">
-                <h1 className="title">Contáctenos</h1>
+                <h1 className="title">Regiśtrate</h1>
                 <p>
-                  Su opinión es muy importante para nosotros.
+                  Estás a unos pasos de unirte a nuestra web.
                 </p>
               </div>
               <form action="/" method="POST">
@@ -195,8 +196,19 @@ class FancyForm extends React.Component {
                          onChange={this.actualizar}/>
                 </div>
 
+                <div className="entrada-formulario">
+                  <label className="etiqueta" htmlFor="email">
+                    Correo electrónico
+                  </label>
+                  <input id="email" name="email"
+                         type="text" placeholder="correo electronico"
+                         className="casilla-formulario"
+                         value={this.state.email}
+                         onChange={this.actualizar}/>
+                </div>
+
                 <input id="enviar-formulario" type="submit"
-                       value="Enviar"/>
+                       value="Registrarse"/>
 
               </form>
             </div>
