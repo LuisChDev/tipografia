@@ -1,87 +1,61 @@
-* {
-    box-sizing: border-box;
-}
-
 body {
-    background-color: #A67F8E;
+    background-image: url(../static/Fotolia-girl-sunset.jpg);
+    background-size: cover;
+    position: absolute;
+}
+
+.text-block {
+    position: absolute;
+}
+
+#block-la {
+    top: 2vh;
+    left: 45vw;
+    font-size: 2em;
+    font-family: nuestraFont;
+    transform: rotate(-10deg) scaleX(1.6) scaleY(1.2);
+}
+
+#block-aventura {
+    top: -15vh;
+    left: 67vw;
+    font-size: 8em;
+    font-family: aventuraFont;
     color: white;
-    background-image: url(../static/vintageBackground.jpg);
-    font-family: oldFont;
+    transform: rotate(-8deg);
 }
 
-#base {
-    background-color: #2C1A1D;
-    border-radius: 5%;
-    display: flex;
-    flex-direction: column;
-    width: 50%;
-    margin: auto;
-    padding: 10px;
+#block-apenas {
+    top: 28vh;
+    left: 55vw;
+    font-size: 2.5em;
+    font-family: nuestraFont;
+    transform: rotate(8deg);
 }
 
-#form-header {
-    margin: 10px;
-}
-
-.pass-match {
-    margin: 10px;
-}
-
-.icon {
-    height: 30px;
-    width: 30px;
-}
-
-.entrada-formulario {
-    background-color: #6C534E;
-    border-width: 5px;
-    border-color: white;
-    margin: 10px;
-    border-radius: 10px;
-    padding: 10px;
-}
-
-.etiqueta {
-    width: 30%;
-    float: left;
-}
-
-.casilla-formulario {
-    border-radius: 10px;
-    width: 70%;
-    color: black;
-    background-color: #DBB3B1;
-    padding: 10px;
-}
-
-#enviar-formulario {
-    background-color: #C89FA3;
-    border-radius: 10px;
-    margin: 10px;
-}
-
-progress::-moz-progress-bar {
-    background: #A67F8E;
-}
-
-progress::-webkit-progress-bar {
-    background: #A67F8E;
-}
-
-.password-meter {
-    margin: 10px;
-    padding: 10px;
+#block-comienza {
+    top: 35vh;
+    left: 52vw;
+    font-size: 8em;
+    font-family: comienzaFont;
 }
 
 @font-face {
-    font-family: oldFont;
-    src: url(../static/doctorjekyllnf.ttf)
+    font-family: adventureFont;
+    src: url(../static/Eutemia.ttf)
 }
 
-/* colors:
-   baby-pink: DBB3B1;
-   Tuscany: C89FA3;
-   English Lavender: A67F8E;
-   Liver: 6C534E;
-   Old Burgundy: 2C1A1D;
- */
+@font-face {
+    font-family: aventuraFont;
+    src: url(../static/vtksDejaVu.ttf)
+}
+
+@font-face {
+    font-family: comienzaFont;
+    src: url(../static/abberancy.ttf)
+}
+
+@font-face {
+    font-family: nuestraFont;
+    src: url(../static/Adequate-ExtraLight.ttf)
+}

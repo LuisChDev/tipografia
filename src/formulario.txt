@@ -1,0 +1,5 @@
+https://github.com/LuisChDev/tipografia
+
+Este proyecto muestra un diseño tipográfico realizado en CSS.
+
+simplemente clone el repo y ejecute "npm start".
