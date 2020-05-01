@@ -9,28 +9,27 @@ body {
 }
 
 #block-la {
-    top: 2vh;
-    left: 45vw;
+    top: 22vh;
+    left: 57vw;
     font-size: 2em;
     font-family: nuestraFont;
-    transform: rotate(-10deg) scaleX(1.6) scaleY(1.2);
 }
 
 #block-aventura {
-    top: -15vh;
-    left: 67vw;
-    font-size: 8em;
-    font-family: aventuraFont;
+    top: -29vh;
+    left: 45vw;
+    font-size: 19em;
+    font-family: aventura2Font;
+    font-style: italic;
     color: white;
-    transform: rotate(-8deg);
 }
 
 #block-apenas {
-    top: 28vh;
-    left: 55vw;
+    top: 47vh;
+    left: 76vw;
     font-size: 2.5em;
     font-family: nuestraFont;
-    transform: rotate(8deg);
+    /* transform: rotate(8deg); */
 }
 
 #block-comienza {
@@ -48,6 +47,11 @@ body {
 @font-face {
     font-family: aventuraFont;
     src: url(../static/vtksDejaVu.ttf)
+}
+
+@font-face {
+    font-family: aventura2Font;
+    src: url(../static/VictoriaDemo.otf)
 }
 
 @font-face {
